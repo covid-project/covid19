@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/home.css">
+
+</head>
+<body>
+<div class="topnav" id="NavegacionTop">
+  <div class="container">
+    <a href="#"><img src="imagenes/logo_covid.png" alt="logo"></a>
+  </div>
+  <a href="./home.html" class="active">
+    <img class="icono" src="imagenes/icono_home.png" alt="home">
+  </a>
+  <a href="./registro.html">
+    <img class="icono" src="imagenes/icono_registro.png" alt="registro">
+  </a>
+  <a href="./supermercado.html">
+    <img class="icono" src="imagenes/icono_carrito.png" alt="supermercado">
+  </a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("NavegacionTop");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+<footer>
+    <div class="footer">
+      <p>UNICA, Facultad de Ingenier&iacute;a</p>
+    </div>
+  </footer>
+</html>
