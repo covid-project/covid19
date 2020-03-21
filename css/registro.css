@@ -1,0 +1,24 @@
+body{
+  background-color: rgba(89, 211, 247, 0.6) ;
+  border: blue 15px double;
+}
+
+header h1{
+  margin-left: 620px;
+  margin-top: 50px;
+}
+
+header img{
+  margin-left: 580px;
+}
+
+
+
+.datos input{
+  margin-left: 600px;
+  margin-top: 20px;
+}
+
+#login{
+  margin-bottom: 23px;
+}
