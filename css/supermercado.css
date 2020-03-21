@@ -38,8 +38,18 @@ body{
   display: grid;
   /*Esto siempre es necesario*/
   /*Especificar como quiero que se comporte*/
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   grid-auto-rows: minmax(100px, auto);
-  background-color: green;
+  background-color: white;
+  margin-top: 50px;
+  width: 700px;
+  margin-left: 320px;
+}
+
+
+.productos div{
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
 }
