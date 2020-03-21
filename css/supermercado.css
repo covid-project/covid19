@@ -1,0 +1,45 @@
+body{
+  margin: 0px;
+
+}
+
+
+.navegacion{
+  display: flex;
+  background-color: blue;
+  margin-top: 0px;
+}
+
+.navegacion h3{
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-top: 15px;
+  color: white;
+}
+
+.navegacion input{
+  width: 700px;
+  height: 30px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.icon-menu, .icon-user-tie{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  color: white;
+}
+
+
+/**diseño de las cajas de los productos**/
+
+.productos{
+  display: grid;
+  /*Esto siempre es necesario*/
+  /*Especificar como quiero que se comporte*/
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
+  background-color: green;
+}
