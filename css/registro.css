@@ -1,6 +1,6 @@
 body{
-  background-color: rgba(89, 211, 247, 0.6) ;
-  border: blue 15px double;
+  background:  url('../imagenes/fondo.jpeg')
+    fixed center center  #15689d;
 }
 
 header h1{

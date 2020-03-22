@@ -78,7 +78,7 @@ body {
   color: white;
   font-size: 40px;
   width: 85%;
-  width-max:850px;
+  max-width:850px;
   margin:0 auto;
   padding: 25px;
 }
