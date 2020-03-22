@@ -1,0 +1,56 @@
+.header{
+    text-align: center;
+    background-color: #2ac5fe;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+}
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-container img{
+    width: 330px;
+    height: 330px;
+}
+.flex-container .special-box img{
+    width: auto;
+    height: auto;
+}
+
+.flex-container > div {
+    width: 350px;
+    line-height: auto; 
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.flex-container > .special-box {
+    width: auto;
+    line-height: auto; 
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 750px){
+    .header{
+        text-align: center;
+        background-color: #2ac5fe;
+        color: white;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px;
+        font-size: 25px;
+    }
+    .flex-container .special-box img{
+        width: 70%;
+        height: auto;
+    }
+}
