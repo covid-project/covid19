@@ -1,16 +1,16 @@
 
 body{
-    background-color:#b30bb3d3;
+    background:  url('../imagenes/fondo.jpeg')
+    fixed center center  #15689d;
     margin: 0;
     padding: 0;
-  
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* SECCION PRESENTACION */
 
 .board{
     display: flex;
-    background-color: aqua;
+    background-color:#15689d;
     width:auto; 
     height: 300px;
     margin:  200px 250px;
@@ -32,7 +32,7 @@ body{
     display: flex;
     width:auto;
     height: 80%;
-    background: #2596f391;
+    background: #d23a91;
     flex-direction: column;
     /* flex-wrap: nowrap; */
     align-items: center;
@@ -46,13 +46,13 @@ body{
 .mapas .tipo{
     margin: 2.5%;
     padding: 0;
-    
+    background: 15689d;
     flex-basis: 400px;
     height: 10px;
 }
 
 .mapas .tipo  h2{
-    font-size: 18px;
+    font-size: 38px;
     margin: 40px;
     text-align: center;
 }
@@ -70,10 +70,6 @@ body{
 } 
 
 
-
-
-
-
 /* SECCION MODULOS */
 .modulos{
     display: grid;
@@ -83,7 +79,7 @@ body{
     /* width: 1200px; */
     /* height: 300px; */
     margin: 90px auto 100px;
-    background: #0bafcc;
+    /* background: #15689d; */
 
 }
 .modulos .sec{
@@ -108,7 +104,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background: #03e403d3;
+    background: #d23a91;
     transition:0.5s;
     z-index: 1;
     border-radius: 10px;
@@ -127,7 +123,7 @@ body{
     transform:translate(-50%,-50%);
     font-size: 80px;
     transition: 0.5s;
-    color: #fff;
+    color: #f2f2f2;
 }
 .modulos .sec:hover .icon .fa{
     font-size: 40px;
@@ -151,30 +147,19 @@ body{
 .modulos .sec .contenido h3{
     margin: 0 0 10px;
     padding: 0;
-    color: #fff;
+    color: #f2f2f2;
     font-size: 14px;
     text-align: center;
 }
 .modulos .sec  .contenido p{
     margin: 0 ;
     padding: 0;
-    color: #fff;
+    color: #f2f2f2;
     font-size: 14px;
     text-align: center;
 }
-/* 
+
 .board{
     background: url('./images/fondo.jpg')
-    fixed center center #684cacd3;
+    fixed center center #d23a91;
 }
-h3{
-    background-color: aqua;
-}
-
-
-div .sec1{
-    background-color: blue;
-}contenido{
-    background-color: brown;
-}
- */
