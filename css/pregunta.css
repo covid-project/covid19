@@ -1,0 +1,97 @@
+body{
+    background:  url('../imagenes/fondo.jpeg')
+    fixed center center  #15689d;
+    margin: 0;
+    padding: 0;
+    /* background: linear-gradient(45deg,#eaff2b98,   #888610b9 ); */
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: #15689d; */
+}
+.presentacion{
+    /* display: flex; */
+    background-color: rgb(210,58,145);
+
+    width:auto;
+     /*600px  */
+
+    height: 50px;
+    margin:  50px 300px 50px 300px;
+    border-radius: 45px;
+    padding:50px;
+    position: relative;
+}
+.presentacion div {
+    display: flex;
+    flex-basis: 300px;
+
+    text-align: center;
+    /* padding-top: 5px; */
+    /* margin: 10px 5px; */
+    font-size: 20px;
+    
+}
+.presentacion div h2{
+    align-content: center;
+
+    margin-left:100px ;
+
+}
+
+.seccionP{
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f2f2ff;;
+
+}
+
+.Tarjeta{
+    position: relative;
+    background: #105c88e8;
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+
+}
+
+
+
+
+.Tarjeta .ask{
+    position: relative;
+    width: 100%;
+    height:200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(210,58,145);
+}
+/* Para los botones /enlaces */
+/* .Tarjeta .res a{
+    display: inline-block;
+    margin: 10px 0 0;
+    padding: 10px  20px ;
+    text-decoration: none;
+    border: 2px solid #ffff;
+    color:#eeb005;
+    font-weight: 600;
+} */
+.Tarjeta .res{
+    width: 400px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.Tarjeta .ask  h3{
+    color: #f2f2ff;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.swiper-slide{
+    width: 400px;
+}
+

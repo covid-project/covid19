@@ -1,0 +1,165 @@
+
+body{
+    background:  url('../imagenes/fondo.jpeg')
+    fixed center center  #15689d;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* SECCION PRESENTACION */
+
+.board{
+    display: flex;
+    background-color:#15689d;
+    width:auto; 
+    height: 300px;
+    margin:  200px 250px;
+    border-radius: 45px;
+    flex-direction: row;
+    position: relative;
+    
+}
+.board div p{
+    display: flex;
+    margin: 50px ;
+    text-align: center;
+    font-size: 40px;
+
+}
+/* SECCION MAPAS */
+.mapas{
+
+    display: flex;
+    width:auto;
+    height: 80%;
+    background: #d23a91;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    align-items: center;
+
+    /* justify-content: center; */
+    margin: auto;
+
+    /* float: left; */
+    /* position: relative; */
+}
+.mapas .tipo{
+    margin: 2.5%;
+    padding: 0;
+    background: 15689d;
+    flex-basis: 400px;
+    height: 10px;
+}
+
+.mapas .tipo  h2{
+    font-size: 38px;
+    margin: 40px;
+    text-align: center;
+}
+
+.mapas .tipo .contenido img{
+    
+    display: flex;
+    position: relative;
+    flex-direction: 50px;
+    /* margin: 0% 5%; */
+    margin: 50px 200px  ;
+    border-radius: 15px;
+       
+
+} 
+
+
+/* SECCION MODULOS */
+.modulos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-gap: 20px;
+    position: relative;
+    /* width: 1200px; */
+    /* height: 300px; */
+    margin: 90px auto 100px;
+    /* background: #15689d; */
+
+}
+.modulos .sec{
+    position: relative;
+    display: flex;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px );
+    background: #001b4ea6;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    align-self: center;
+    
+
+
+}
+.modulos .sec .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #d23a91;
+    transition:0.5s;
+    z-index: 1;
+    border-radius: 10px;
+}
+.modulos .sec:hover .icon{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.modulos .sec .icon .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: #f2f2f2;
+}
+.modulos .sec:hover .icon .fa{
+    font-size: 40px;
+}
+.modulos .sec .contenido{
+    position: absolute;
+    top: 100px;
+    height: calc(100% - 100px);
+    text-emphasis: center;
+    padding: 20;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+}
+.modulos .sec:hover .contenido
+{
+    top: 100px;
+    opacity: 1;
+}
+
+.modulos .sec .contenido h3{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #f2f2f2;
+    font-size: 14px;
+    text-align: center;
+}
+.modulos .sec  .contenido p{
+    margin: 0 ;
+    padding: 0;
+    color: #f2f2f2;
+    font-size: 14px;
+    text-align: center;
+}
+
+.board{
+    background: url('./images/fondo.jpg')
+    fixed center center #d23a91;
+}
